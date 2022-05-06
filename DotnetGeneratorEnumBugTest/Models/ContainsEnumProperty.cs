@@ -7,6 +7,6 @@ namespace DotnetGeneratorEnumBugTest.Models
     {
         [Key]
         public Guid Id { get; set; }
-        public EnumType enumType { get; set; }
+        public EnumType EnumType { get; set; }
     }
 }
